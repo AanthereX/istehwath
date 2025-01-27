@@ -1,0 +1,9 @@
+.slick-track {
+  display: flex;
+}
+.slick-slide {
+  margin: 0 20px 0 0;
+}
+.slick-dots li button {
+  display: none;
+}

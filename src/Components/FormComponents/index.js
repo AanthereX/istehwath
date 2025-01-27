@@ -1,0 +1,12 @@
+export { default as Button } from "./Button";
+export { default as SocialAuth } from "./Button/socialAuth";
+export { default as CheckButton } from "./Button/checkButton";
+export { default as TextInput } from "./TextInput";
+export { default as TextArea } from "./TextArea";
+export { default as PasswordInput } from "./PasswordInput";
+export { default as Divider } from "./Divider";
+export { default as UploadImage } from "./UploadImage";
+export { default as OTPTextInput } from "./OTPTextInput";
+export { default as SelectInput } from "./Select";
+export { default as FileAddComponent } from "./FileAddComponent";
+export { default as CustomTagSelect } from "./CustomTagSelect";
