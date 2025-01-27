@@ -1,0 +1,42 @@
+<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="27" height="27" fill="#F5F5F5"/>
+<g id="Notification &#38; Promote Flow">
+<path d="M-5846 -850C-5846 -851.105 -5845.1 -852 -5844 -852H7952C7953.1 -852 7954 -851.105 7954 -850V1722C7954 1723.1 7953.1 1724 7952 1724H-5844C-5845.1 1724 -5846 1723.1 -5846 1722V-850Z" fill="#404040"/>
+<g id="Promote - Select Promote Package" clip-path="url(#clip0_3_2)">
+<rect width="1440" height="1026" transform="translate(-659 -560)" fill="#FCFCFC"/>
+<g id="Group 1000004607">
+<rect id="Rectangle 19226" opacity="0.5" x="-650" y="-958" width="956" height="1056" fill="url(#paint0_radial_3_2)" fill-opacity="0.61"/>
+</g>
+<g id="Rectangle 19338" filter="url(#filter0_d_3_2)">
+<rect x="-503" y="-312" width="1129" height="626" rx="22" fill="#FEFEFE"/>
+</g>
+<g id="Group 1000004745">
+<rect id="Rectangle 15" x="-456.5" y="-11.5" width="495" height="264" rx="11.5" fill="white" stroke="#0E73D0"/>
+</g>
+<g id="Group 1000004815">
+<rect id="Rectangle 101" width="27" height="27" rx="13" fill="#2CAB00"/>
+<path id="Vector 25" d="M8 13.5L11.6667 17L19 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<path d="M-5844 -851H7952V-853H-5844V-851ZM7953 -850V1722H7955V-850H7953ZM7952 1723H-5844V1725H7952V1723ZM-5845 1722V-850H-5847V1722H-5845ZM-5844 1723C-5844.55 1723 -5845 1722.55 -5845 1722H-5847C-5847 1723.66 -5845.66 1725 -5844 1725V1723ZM7953 1722C7953 1722.55 7952.55 1723 7952 1723V1725C7953.66 1725 7955 1723.66 7955 1722H7953ZM7952 -851C7952.55 -851 7953 -850.553 7953 -850H7955C7955 -851.657 7953.66 -853 7952 -853V-851ZM-5844 -853C-5845.66 -853 -5847 -851.657 -5847 -850H-5845C-5845 -850.552 -5844.55 -851 -5844 -851V-853Z" fill="white" fill-opacity="0.1"/>
+</g>
+<defs>
+<filter id="filter0_d_3_2" x="-522" y="-327" width="1167" height="664" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="9.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_2" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_3_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-172 -430) rotate(90) scale(528 478)">
+<stop stop-color="#B8C9D8"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_3_2">
+<rect width="1440" height="1026" fill="white" transform="translate(-659 -560)"/>
+</clipPath>
+</defs>
+</svg>
