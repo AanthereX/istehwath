@@ -1,0 +1,240 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "general-regular";
+}
+
+.PhoneInputCountryIconImg {
+  width: 16px;
+  height: 16px;
+}
+
+.react-tel-input {
+  min-width: 100% !important;
+  min-height: 52px !important;
+  border-top-left-radius: 12px !important;
+  border-bottom-left-radius: 12px !important;
+}
+
+.react-tel-input .flag-dropdown {
+  border: 0.8px solid #535353 !important;
+  padding-left: 0px !important;
+  border-top-left-radius: 12px !important;
+  border-bottom-left-radius: 12px !important;
+  position: absolute;
+  background-color: #FFFFFF;
+  left: 0;
+}
+.react-tel-input .flag-dropdown .selected-flag .flag {
+  margin-left: 12px !important;
+}
+.react-tel-input .flag-dropdown:hover, .react-tel-input .flag-dropdown:focus {
+  background-color: none !important;
+  background: none !important;
+  opacity: 100 !important;
+}
+.selected-flag .flag {
+  position: absolute;
+  left: 0;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(to right, #D1B000, #FAD91F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-silver {
+  background: linear-gradient(to right, #cdcccb, #e5e4e2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-control{
+  font-weight: normal;
+  font-size: 1rem;
+  color: #181818;
+  border-radius: 12px !important;
+  min-height: 52px;
+  border: 0.8px solid #535353 !important;
+  min-width: 100% !important;
+  outline: none;
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+
+.PhoneInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 12px;
+  z-index: 9;
+  width: 100%;
+  opacity: 0;
+}
+
+input {
+  outline: none;
+}
+
+input[type="email"] {
+  text-transform: lowercase;
+}
+::placeholder {
+  text-transform: capitalize;
+}
+
+.marketplace_blue_container {
+  position: relative;
+  background: linear-gradient(96deg, #1C2F40 -7.95%, #20415E 115.96%);
+  border-radius: 25px;
+  height: 294px;
+  overflow: hidden;
+}
+
+.marketplace_gold_container {
+  position: relative;
+  background-color: #BDA585;
+  border-radius: 25px;
+  height: 294px;
+  overflow: hidden;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hideHorizontallScroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideHorizontallScroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.bottom-logo {
+  width: 193px;
+  height: 494px;
+  position: fixed;
+  right: -60px;
+  bottom: 0;
+  background-image: url("./assets/images/bottom-design-pattern.svg") !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 0;
+}
+.top-logo {
+  width: 193px;
+  height: 494px;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-image: url("./assets/images/top-design-pattern.svg") !important;
+  background-repeat: no-repeat !important;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .bottom-logo {
+    display: none;
+  }
+  .top-logo {
+    display: none;
+  }
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* customize scrollbar starts */
+/* Track */
+::-webkit-scrollbar {
+  width: 7px;
+  direction: rtl;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #BBBBBB;
+  border-radius: 7px;
+}
+
+/* customize scrollbar ends here */
+.overflow-scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.css-13cymwt-control {
+  background-color: transparent !important;
+  border-radius: 12px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  outline: none !important;
+  border-width: 0.8px !important;
+  border-color: #535353 !important;
+  color: #181818 !important; 
+  padding: 0.15rem 0.5rem !important; 
+  line-height: 2 !important;
+}
+.css-t3ipsp-control {
+  background-color: transparent !important;
+  border-radius: 12px !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  outline: none !important;
+  border-width: 0.8px !important;
+  border-color: #535353 !important;
+  color: #181818 !important;
+  padding: 0.15rem 0.5rem !important; 
+  line-height: 2 !important;
+}
+.css-t3ipsp-control:focus, .css-t3ipsp-control:active {
+  outline: none !important;
+  border: none !important;
+}
+
+.ltr-only {
+  direction: ltr;
+}
+
+@font-face {
+  font-family: "general-light";
+  src: url("./assets/fonts/IBMPlex/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "general-regular";
+  src: url("./assets/fonts/IBMPlex/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "general-semiBold";
+  src: url("./assets/fonts/IBMPlex/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "general-medium";
+  src: url("./assets/fonts/IBMPlex/IBMPlexSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "general-bold";
+  src: url("./assets/fonts/IBMPlex/IBMPlexSans-Bold.ttf");
+}

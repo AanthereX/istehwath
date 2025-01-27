@@ -1,0 +1,23 @@
+# cloudbuild.yaml
+
+steps:
+  # Step 1: Build the React app
+  - name: 'node:18'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - 'npm install && npm run build'
+
+  # Step 2: Deploy to Google Cloud Storage
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args:
+      - '-m'
+      - 'rsync'
+      - '-r'
+      - '-c'
+      - '-d'
+      - 'dist/'
+      - 'gs://istehwath-web/'  # Replace with your actual bucket name
+
+images:
+  - 'gcr.io/cloud-builders/gsutil'

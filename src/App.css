@@ -1,0 +1,260 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.main_box {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 7px 4px 15px -1px rgba(0, 0, 0, 0.03);
+  padding: 20px;
+}
+
+.price_box {
+  border-radius: 12px;
+  border: 1px solid #efefef;
+  background: #fafafa;
+  padding: 20px;
+}
+
+.filter_box {
+  border-radius: 12px;
+  background: #1f3c55;
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.04);
+}
+.profile_border {
+  border: 1px solid #1f3a53;
+}
+.profile_border_gold {
+  border: 1px solid #BDA585;
+}
+.flip-x-180 {
+  transform: scale(-1, 1);
+}
+.tab_Box {
+  border-radius: "6px 0px 0px 0px";
+  padding: 0 20px;
+}
+
+@keyframes scaleInOut {
+  0% {
+    font-size: 14px;
+    text-shadow: 0px 0px 0px #1c2f40;
+  }
+  25% {
+    font-size: 15.5px;
+    text-shadow: 0px 0px 3px rgb(185, 216, 244);
+  }
+  50% {
+    font-size: 16px;
+    text-shadow: 0px 0px 3px rgb(185, 216, 244);
+  }
+  75% {
+    font-size: 15.5px;
+    text-shadow: 0px 0px 3px rgb(185, 216, 244);
+  }
+  100% {
+    font-size: 14px;
+    text-shadow: 0px 0px 0px #1c2f40;
+  }
+}
+.scaleInOutText {
+  animation : scaleInOut 3s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes scaleInOutGold {
+  0% {
+    font-size: 14px;
+    text-shadow: 0px 0px 0px #BDA585;
+  }
+  25% {
+    font-size: 15.5px;
+    text-shadow: 0px 0px 3px rgb(205, 179, 144);
+  }
+  50% {
+    font-size: 16px;
+    text-shadow: 0px 0px 3px rgb(216, 188, 152);
+  }
+  75% {
+    font-size: 15.5px;
+    text-shadow: 0px 0px 3px rgb(239, 209, 169);
+  }
+  100% {
+    font-size: 14px;
+    text-shadow: 0px 0px 0px #BDA585;
+  }
+}
+.scaleInOutTextGold {
+  animation : scaleInOutGold 3s infinite alternate-reverse ease-in-out;
+}
+
+.basic_Box {
+  border-radius: 22px;
+  background: #fefefe;
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.09);
+  height: 500px;
+  padding: 20px;
+}
+
+.premium_Box {
+  border-radius: 22px;
+  background: var(
+    --Blue-Gradient,
+    linear-gradient(96deg, #1c2f40 -7.95%, #20415e 115.96%)
+  );
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.09);
+  height: 500px;
+  padding: 20px;
+}
+
+.platinum_Box {
+  border-radius: 22px;
+  background: var(
+    --Blue-Gradient,
+    linear-gradient(96deg, #9E7C4F -7.95%, #9E7C4F 115.96%)
+  );
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.09);
+  height: 500px;
+  padding: 20px;
+}
+
+.payment_box {
+  border-radius: 22px;
+  padding: 20px;
+}
+
+.setting_box {
+  display: flex;
+  border-radius: 22px;
+  background: #fefefe;
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.09);
+}
+.promote_box {
+  border-radius: 22px;
+  background: #fefefe;
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.09);
+  padding: 20px;
+}
+
+.selectStartupBox {
+  border-radius: 12px;
+  border: 1px solid var(--Selected-Field, #0e73d0);
+  background: #fff;
+  width: 650px;
+  height: 265px;
+  margin-top: 20px;
+}
+
+.selectPromotePlan {
+  border-radius: 9px;
+  background: #efefef;
+  width: 650px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+/* hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.profile_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.plus_sign {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  left: 50px;
+}
+.edit_box {
+  border-radius: 22px;
+  background: #fefefe;
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.09);
+}
+.completeForm_box {
+  background: #fefefe;
+}
+
+.promo_box {
+  border-radius: 9px;
+  background: var(
+    --Yellow,
+    linear-gradient(95deg, #90744b -5.38%, #cb9a51 113.96%)
+  );
+}
+.promo_box_premium {
+  border-radius: 9px;
+  background: var(
+    --Blue-Gradient,
+    linear-gradient(96deg, #1c2f40 -7.95%, #20415e 115.96%)
+  );
+}
+
+.buyer_box {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 17px 0px rgba(0, 0, 0, 0.02);
+}
+
+.tab.active {
+  background-color: #BDA585;
+  color: #fff; /* Black text color for the active tab */
+  border-radius: 6px 0px 0px 0px;
+  outline: none;
+  padding: 0 30px;
+}
+
+.tab.inactive {
+  background: #f8f8f8;
+  color: black;
+  padding: 0 30px;
+}
+
+.tab.activeNavbar {
+  color: #1f3c55;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+.tab.inactiveNavbar {
+  color: #808080;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+.modaal_box {
+  border-radius: 22px;
+  background: #fefefe;
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.09);
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 300;
+  outline: none;
+  color: #181818 !important;
+  line-height: 10px;
+}
+
+.react-datepicker__input-container::placeholder {
+  color: #181818 !important;
+}
