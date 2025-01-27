@@ -1,0 +1,14 @@
+
+@tailwind components;
+
+
+@layer components {
+  .otp-input input {
+    @apply !min-h-[49px] !min-w-[49px] bg-white block w-full  font-general_medium placeholder:text-c_181818 border rounded-lg border-c_0E73D0 outline-none text-c_181818 !m-0;
+  }
+}
+.otp-input{
+    display: flex;
+    justify-content: space-between;
+    
+}
